@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Chattr - Delete Account</title>
+
+<style>
+body{
+  max-width:900px;
+  margin:40px auto;
+  padding:20px;
+  font-family:Arial, sans-serif;
+  line-height:1.7;
+  color:#111;
+}
+
+h1,h2{color:#222;}
+
+nav{
+  margin-bottom:10px;
+}
+
+nav a{
+  margin-right:10px;
+  text-decoration:none;
+  color:#2563eb;
+  font-weight:500;
+}
+
+hr{
+  margin:15px 0;
+}
+
+.warning{
+  background:#fff3cd;
+  padding:12px;
+  border-left:5px solid #ffcc00;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="tos.html">Terms of Service</a> |
+  <a href="privacy.html">Privacy Policy</a> |
+  <a href="delete-account.html">Delete Account</a>
+</nav>
+
+<hr>
+
+<h1>Delete Your Account</h1>
+
+<p class="warning">
+⚠️ Deleting your account is permanent. This action cannot be undone.
+</p>
+
+<h2>What will be deleted</h2>
+<ul>
+<li>Your account (Firebase Authentication)</li>
+<li>Your profile information</li>
+<li>Your messages (Firestore)</li>
+<li>Your uploaded files (Firebase Storage)</li>
+<li>Your call history and metadata</li>
+</ul>
+
+<h2>What may be retained</h2>
+<ul>
+<li>Data required for legal compliance</li>
+<li>Anonymous technical logs (if applicable)</li>
+</ul>
+
+<h2>How to delete your account</h2>
+<p>You can request account deletion by contacting us:</p>
+
+<p><b>Email:</b> chattr.appx@gmail.com</p>
+
+<p>Please include:</p>
+<ul>
+<li>Your account email</li>
+<li>Username (if applicable)</li>
+<li>Request: "Delete my Chattr account"</li>
+</ul>
+
+<h2>Processing time</h2>
+<p>Account deletion requests are typically processed within 7–30 days.</p>
+
+</body>
+</html>
